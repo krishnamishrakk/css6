@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-image: url(road\ \(1\)saha.jpg);
+    background-size: 1530px 630px;
+}
+.logo{
+    width: 80px;
+    position: relative;
+    left: 90px;
+    top: 25px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: -40px;
+}
+.menua{ 
+    padding: 40px;
+    color: whitesmoke;
+}
+.menub{ 
+    padding: 40px;
+}
+.menuc{ 
+    padding: 40px;
+}
+.menud{ 
+    padding: 40px;
+}
+.foura{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.fourb{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.fourc{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.fourd{
+    color: whitesmoke;
+}
+.parent-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 530px;
+  }
+  
+  .content {
+    width: auto;
+    height: 400px;
+    color: whitesmoke;
+    padding-top: 80px;
+    padding-left: 100px;
+  }
+  
+  h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+    padding-left: 250px;
+    padding-top: 50px;
+  }
+  
+  .box {
+    margin: 20px;
+    width: 250px;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: grab;
+    transition-duration: 0.5s;
+  }
+  
+  .box1 {
+    background-image: url(pic-1.png);
+    background-size: cover;
+  }
+  
+  .box2 {
+    background-image: url(pic-2.png);
+    background-size: cover;
+  }
+  
+  .box3 {
+    background-image: url(pic-3.png);
+    background-size: cover;
+  }
+  
+  .box4 {
+    background-image: url(pic-4.png);
+    background-size: cover;
+  }
+  
+  h2 {
+    margin: 0px;
+    padding: 15px 0px 0px 20px;
+  }
+  
+  .data {
+    font-size: 10px;
+    padding: 0px 20px 0px 20px;
+    line-height: 25px;
+    margin: 0px;
+  }
+  
+  button {
+    padding: 10px 50px;
+    border-radius: 25px;
+    border: none;
+  }
+  .box:hover{
+      transform: translateY(-12px);
+  }
+  @media screen and (max-width:856px) {
+    body {
+      padding-left: 30px;
+    }
+    .one {
+      text-align: center;
+      margin: 0px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      float: right;
+      padding: 0px;
+    }
+    .three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: 20px;
+    margin-right: -180px;
+    }
+    .menud {
+      grid-column: 2/3;
+      grid-row: 1/4;
+      position: relative;
+      left: -28px;
+      top: -12px;
+    }
+    .two {
+      left: -10px;
+      top: -15px;
+    }
+    .logo{
+    position: fixed;
+    top: 12px;
+    width: 48px;
+    }
+    #logo {
+      width: 64px;
+    }
+    .parent-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      background-size: cover;
+    }
+    .content {
+      padding: 0px;
+    }
+    h1 {
+      margin-top: 70px;
+      font-size: 30px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .box {
+    justify-content: center;
+       width: 450px;
+      height: 220px;
+    }
+  }
